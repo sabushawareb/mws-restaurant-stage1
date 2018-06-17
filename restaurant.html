@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Normalize.css for better cross-browser consistency -->
@@ -30,17 +29,20 @@
     <section id="restaurant-container">
       <header>
          <!-- Beginning nav -->
-        <nav>
-          <h1>
-            <a href="/">Restaurant Reviews</a>
-          </h1>
-        </nav>
-        <!-- End nav -->
-      </header> 
-        <ul id="breadcrumb" >
+      <nav role="navigation">
+          <!-- updated -->
+            <h1> 
+              <a href="/">Restaurant Reviews</a>
+            </h1>
+             <ul id="breadcrumb" arai-label="Breadcrumb">
           <li><a href="/">Home</a></li>
         </ul>
-      <h1 id="restaurant-name"></h1>
+        <!-- End nav -->
+      </nav>
+      </header> 
+       
+        
+      <h2 id="restaurant-name"></h2> <!-- updated -->
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
     
